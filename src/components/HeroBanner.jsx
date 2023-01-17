@@ -17,8 +17,8 @@ const HeroBanner = () => {
             <Button variant='contained' color="error" href="#exercise" sx={ { background: "#FF2625", padding: "10px" } }>
                 Explore Exercises
             </Button>
-            <img src={ HeroBannerImg } alt="banner img" className='hero-banner-img' style={ { borderBottomLeftRadius: '15%', zIndex: '10', opacity: 0.8 } } />
-            <Typography fontWeight={ 600 } color="#ff2625" sx={ { opacity: 0.1, display: { lg: 'block', xs: 'none' }, } } fontSize="200px">
+            <img src={ HeroBannerImg } alt="banner img" className='hero-banner-img' style={ { borderBottomLeftRadius: '15%', zIndex: '10' } } />
+            <Typography fontWeight={ 600 } color="#ff2625" sx={ { opacity: 0.1, display: { lg: 'block', xs: 'none' }, userSelect: 'none' } } fontSize="200px">
                 Exercise
             </Typography>
         </Box>
